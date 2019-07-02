@@ -8,5 +8,4 @@
  + 跳板机平台
  + 构建发布平台
 
-
-[官网地址](http://www.opsfast.com/)
+<a href="http://www.opsfast.com/" target="_blank">在线演示</a>
