@@ -3,7 +3,7 @@
     "description": "",
     "extension": null,
     "generator": "site",
-    "title": "公共组件介绍",
+    "title": "公共组件",
     "variables": {},
     "links": {
         "sharing": {
@@ -14,7 +14,7 @@
             "weibo": null
         },
         "sidebar": {
-            "grafana": "http://grafana.dengzhi.vip"
+            "监控": "http://grafana.dengzhi.vip"
         }
     },
     "output": null,
