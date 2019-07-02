@@ -1,4 +1,5 @@
 {
+    "author": "tony <dz_005@163.com>",
     "plugins": [ "github" ],
     "pluginsConfig": {
         "github": {
