@@ -7,4 +7,4 @@
 + API文档自动生成
 + API接口测试等功能
 
-<a href="http://gateway-wiki.dengzhi.vip/" target="_blank">在线演示</a>
+[在线演示](http://gateway-wiki.dengzhi.vip/)
