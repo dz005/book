@@ -7,5 +7,5 @@
  + 运营分析平台
  + 跳板机平台
  + 构建发布平台
-
-<a href="http://www.opsfast.com/" target="_blank">官网地址</a>
+ 
+[官网地址](http://www.opsfast.com/)
