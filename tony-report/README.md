@@ -48,8 +48,7 @@ public class DataConfig extends ReportConfigurerAdapter {
 /**
  * 报表创建者
  * 
- * @author zhi.deng
- *
+ * @author tony.deng
  */
 public interface ReportBuilder {
 
