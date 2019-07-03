@@ -30,15 +30,15 @@
 + 接口Mock：tony-http-annotation + tony-http-mock
 
 ## 概念图
-![tony-http](../images/tony-http.png)
+![tony-http](../images/tony-http/tony-http.png)
 
 ## 应用
 
 ### 改造前
-![before](../images/before.png)
+![before](../images/tony-http/before.png)
 
 ### 改造后
-![after](../images/after.png)
+![after](../images/tony-http/after.png)
 
 [在线demo][demo]
 

@@ -2,7 +2,7 @@
 
 ## 概念图
 
-![tony-http-server](../images/tony-http-server.png)
+![tony-http-server](../images/tony-http/tony-http-server.png)
 
 ## HttpComponent处理
 

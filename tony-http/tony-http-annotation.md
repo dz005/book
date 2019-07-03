@@ -3,7 +3,7 @@
 一套类似SpringMvc注解的自定义注解
 
 ## 概念图
-![tony-http-annotation](../images/tony-http-annotation.png)
+![tony-http-annotation](../images/tony-http/tony-http-annotation.png)
 
 ## Getting Started
 

@@ -2,7 +2,7 @@
 
 ## 概念图
 
-![tony-http-client](../images/tony-http-client.png)
+![tony-http-client](../images/tony-http/tony-http-client.png)
 
 ## HttpComponentScan处理
 
