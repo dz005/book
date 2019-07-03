@@ -1,6 +1,6 @@
 # Tony Http UI
 
-采用插件方式部署，通过jarslink 实现类隔离，spring容器隔离，通过MDC和SiftingAppender实现日志隔离。
+基于tony-http-annotation自定义注解自动生成文档，采用插件方式部署，通过jarslink实现类加载隔离，spring容器隔离，通过MDC和SiftingAppender实现日志隔离。
 支持：
 + 插件式热部署
 + jar依赖分析
