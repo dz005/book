@@ -12,7 +12,6 @@
 		* tony-http-server-core
 		* tony-http-server-gateway
 		* tony-http-server-open-api
-		* tony-http-server-adapter
 	* tony-http-client
 	* tony-http-extra
 		* tony-http-wiki

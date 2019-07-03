@@ -1,6 +1,6 @@
 # Tony Wiki
 
-一个简单的HTTP文档平台，支持 SpringMVC,Spring Cloud 的restful http接口
+一个简单的HTTP接口文档平台，支持 SpringMVC, Spring Cloud 的restful http接口
 
 和swagger对比：
 
@@ -16,11 +16,10 @@
 
 技术方案已敲定，正在开发中，敬请期待......
 
-UI部分将会参考 [tony-http-ui][demo]
+UI部分将会参考 [tony-http-ui](../tony-http/tony-http-ui.md)
 
 ## Feedback
 
 如果有好的意见或者建议，欢迎随时与[tony.deng][mail]沟通.
 
  [mail]: mailto:dz_005@163.com
- [demo]: http://gateway-wiki.dengzhi.vip

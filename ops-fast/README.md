@@ -11,10 +11,10 @@
  + 构建发布平台
  
 ## 跳板机平台
-### 授权
+### 跳板机用户授权
 可按集群，CMDB，主机进行授权
 ![ops](../images/ops/grant_1.png)
-![ops](../images/ops/grant_1.png)
+![ops](../images/ops/grant_2.png)
 ### Xshell访问
 ![ops](../images/ops/xshell_1.png)
 ![ops](../images/ops/xshell_2.png)
