@@ -31,10 +31,10 @@
         "pageNumbers": false,
         "paperSize": "a4"
     },
-    "plugins": [ "github" ],
-    "pluginsConfig": {
+    "plugins": [ "github" ]
+    /*"pluginsConfig": {
         "github": {
             "url": "https://github.com/dz005/book/tree/master"
         }
-    }
+    }*/
 }
