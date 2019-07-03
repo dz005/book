@@ -17,6 +17,8 @@ dubbo微服务间是相互依赖的，而各项目是独立分散的，这对自
 ### 批量测试
 ![tony-dubbo](../images/tony-dubbo/5.png)
 
+[在线demo][demo]
+
 ## Feedback
 
 如果有好的意见或者建议，欢迎随时与[tony.deng][mail]沟通.
