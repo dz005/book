@@ -2,11 +2,11 @@
 
 [在线demo][demo]
 
-在Control方法上添加注解@DataProvider, 自动支持列表数据导出CSV,Excel,PDF等报表功能
+在Controller方法上添加注解@DataProvider, 自动支持列表数据导出CSV,Excel,PDF等报表功能
 
 ## Getting Started
 
-Download [the latest JAR][3] via Maven:
+Download the latest JAR via Maven:
 ```xml
 <dependency>
     <groupId>org.tony.framework.report</groupId>
@@ -91,9 +91,5 @@ public interface ReportBuilder {
 
 如果有好的意见或者建议，欢迎随时与[tony.deng][mail]沟通.
 
- [1]: #
- [2]: #
- [3]: #
- [snap]: #
  [mail]: mailto:dz_005@163.com
  [demo]: http://report.dengzhi.vip

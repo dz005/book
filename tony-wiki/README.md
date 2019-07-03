@@ -6,7 +6,7 @@
 
 | swagger    |  tony wiki |
 | ------  | ------ |
-| 支持servlet，SpringMVC等多种框架|只支持SpringMVC,Spring Cloud|
+| 支持servlet，SpringMVC等多种框架|只支持SpringMVC注解|
 | 需要引入swagger架包|通过Maven插件方式生成文档，无jar依赖|
 | 通过自定义注解生成文档，有代码侵入性|只通过SpringMVC注解生成文档，无侵入|
 | 需要写swagger注解，增加了工作量|无工作量增加|
