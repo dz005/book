@@ -34,7 +34,7 @@ public class DataConfig extends ReportConfigurerAdapter {
 
 	@Override
 	public void configureReportBuilders(List<ReportBuilder> reportBuilders) {
-        //添加扩展的报表创建者
+        //添加扩展
 		reportBuilders.add(new DefaultExcelReportBuilder());
 		reportBuilders.add(new DefaultPdfReportBuilder());
 	}
@@ -56,8 +56,7 @@ public interface ReportBuilder {
 	/**
 	 * 是否支持当前的文件扩展名
 	 * 
-	 * @param extension
-	 *            文件扩展名
+	 * @param extension 文件扩展名
 	 * @return
 	 */
 	boolean supportsExtension(String extension);
@@ -65,12 +64,9 @@ public interface ReportBuilder {
 	/**
 	 * 生成报表
 	 * 
-	 * @param out
-	 *            输出流
-	 * @param template
-	 *            报表模板
-	 * @param dataProvider
-	 *            数据提供者
+	 * @param out 输出流
+	 * @param template 报表模板
+	 * @param dataProvider 数据提供者
 	 * @throws Exception
 	 */
 	void build(OutputStream out, Template template, DataProvider dataProvider)
