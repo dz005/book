@@ -1,11 +1,11 @@
 # tony-http-server-core
 
 ## 概念图
----
+
 ![tony-http-server](../images/tony-http-server.png)
 
 ## HttpComponent处理
----
+
 通过BeanPostProcessor扫描@HttpComponent,收集HttpBeanDefinition
 
 ```java
@@ -40,7 +40,7 @@ public class HttpAnnotationBeanPostProcessor implements BeanPostProcessor, Initi
 ```
 
 ## 方法处理者
----
+
 分别实现HandlerMethodResolver接口处理@Mapping, @Get, @Post 注解。
 同时获取 @CrossOrigin，@Anonymous	，@Deprecated 的信息
 
@@ -60,7 +60,7 @@ public interface HandlerMethodResolver {
 ```
 
 ## 参数处理者
----
+
 分别实现HandlerMethodArgumentResolver接口处理@Param，@ParamMap，@Body 注解。
 同时抓取参数对象的@Model，@Property，@EnumConstant的信息
 
@@ -93,7 +93,7 @@ public interface HandlerMethodArgumentResolver {
 }
 ```
 ## 返回值处理者
----
+
 实现HandlerMethodReturnValueHandler接口对返回值做转换
 同时抓取参数对象的@Model，@Property，@EnumConstant的信息
 
@@ -113,7 +113,7 @@ public interface HandlerMethodReturnValueHandler {
 ```
 
 ## Feedback
----
+
 如果有好的意见或者建议，欢迎随时与[tony.deng][mail]沟通.
 
  [mail]: mailto:dz_005@163.com
