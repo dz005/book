@@ -1,6 +1,9 @@
 # Tony Http Annotation
 
-一套仿SpringMvc的自定义注解
+一套类似SpringMvc注解的自定义注解
+
+## 概念图
+![tony-http-annotation](../images/tony-http-annotation.png)
 
 ## Getting Started
 

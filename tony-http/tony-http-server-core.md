@@ -1,5 +1,8 @@
 # tony-http-server-core
 
+## 概念图
+![tony-http-server](../images/tony-http-server.png)
+
 ## HttpComponent处理
 
 通过BeanPostProcessor扫描@HttpComponent,收集HttpBeanDefinition

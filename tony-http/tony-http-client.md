@@ -1,5 +1,8 @@
 # tony-http-client
 
+## 概念图
+![tony-http-client](../images/tony-http-client.png)
+
 ## HttpComponentScan处理
 
 用httpComponentScanParser处理@HttpComponentScan，扫描出全部HttpComponentDefinition，然后通过ProxyFactory生成Proxy，注册到BeanFactoy.
