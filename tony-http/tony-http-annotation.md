@@ -1,29 +1,26 @@
-Tony Http Annotation
-======
+# Tony Http Annotation
 
 一套仿SpringMvc的自定义注解
 
-Getting Started
---------
+## Getting Started
 
 Download [the latest JAR][3] via Maven:
 ```xml
 <dependency>
-  <groupId>org.tony.framework</groupId>
+  <groupId>org.tony.framework.http</groupId>
   <artifactId>tony-http-annotation</artifactId>
   <version>0.0.3</version>
 </dependency>
 ```
 or Gradle:
 ```groovy
-compile 'org.tony.framework:tony-http-annotation:0.0.3'
+compile 'org.tony.framework.http:tony-http-annotation:0.0.3'
 ```
 
 Snapshots of the development version are available in [Sonatype's `snapshots` repository][snap].
 
 
-Config
---------
+## Config
 
 在网关项目的springContext-beans.xml中添加配置信息并开启功能:
 ```xml
@@ -33,8 +30,7 @@ Config
 <bean class="org.tony.framework.http.server.gateway.GatewayConfiguration"/>
 ```
 
-Annotations
---------
+## Annotations
 
 注解中的 title 和 description属性分别对应在线wiki中的含义和描述。
 
@@ -54,15 +50,13 @@ Annotations
 | @ Property |否| 标注属性Get方法|
 | @ EnumConstant|否| 标注枚举常量|
 
-Context
---------
+## Context
 
 可以通过 HttpContextHolder.getContext() 获取 Adapter方式中的所有入参，例如当前用户信息，当前UrlPath等。
 
 因为采用的是线程局部变量方式获取，所以起多线程前请做传值，以免取不到值。
 
-Demo
---------
+## Demo
 
 ```java
 @HttpComponent(title = "DEMO服务")
@@ -148,13 +142,12 @@ public enum MyEnum {
 }
 ```
 
-Feedback
---------
+## Feedback
 
-如果有好的意见或者建议，以及不明白的问题，欢迎随时与[tony.deng][mail]沟通.
+如果有好的意见或者建议，欢迎随时与[tony.deng][mail]沟通.
 
  [1]: #
  [2]: #
  [3]: #
  [snap]: #
- [mail]: mailto:dengzhi@111.com.cn
+ [mail]: mailto:dz_005@163.com
