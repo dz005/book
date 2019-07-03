@@ -31,6 +31,5 @@
         "pageNumbers": false,
         "paperSize": "a4"
     },
-    "plugins": [ "github" ],
-    "pluginsConfig": {}
+    "plugins": [ "github" ]
 }
