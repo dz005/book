@@ -1,4 +1,4 @@
-# 1.OPS-Fast
+# OPS-Fast
 
 [官网地址][demo]
 
