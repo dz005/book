@@ -34,8 +34,7 @@ public class HttpComponentConfigurationPostProcessor implements MergedBeanDefini
 
 ```java
 public class HttpComponentRegisterImpl implements HttpComponentRegister, BeanFactoryAware {
-       
-
+    
 	@Override
 	public void register(Collection<HttpComponentDefinition> definitions) {
 		String beanName;
@@ -68,14 +67,14 @@ public class HttpComponentRegisterImpl implements HttpComponentRegister, BeanFac
 @HttpComponent(title = "DEMO服务")
 public interface DemoApi {
 
-    @Post(value = "/test", title = "测试接口", description = "测试用的接口")
-    Set<Map<String, Pojo>> test(@Param("param1") String param1, @Param("param2) Set<Map<String, Pojo>> param2, @Param("param5") Date param3);
+	@Get(value = "/test", title = "测试接口", description = "测试用的接口")
+	Set<Map<String, Pojo>> test(@Param("param1") String param1,@Param(value = "param2") Set<Map<String, Pojo>> param2,@Param(value = "param5", required = false) Date param3)
 
-    @Get(value = "/test2", title = "测试接口2", description = "测试用的接口2")
-    Pojo2 test2(@Param("param1") String param1, @Param(value = "param2" param2, @Param(value = "param5", required = false) Date param3);
+	@Get(value = "/test2", title = "测试接口2", description = "测试用的接口")
+	Collection<Map<String, Pojo>> test(@Param("param1") String param1,@Param(value = "param2") Collection<Map<String, Pojo>> param2, @Param(value = "param5", required = false) Date param3)
 
-    @Post(value = "/test3", title = "测试接口3", description = "测试用的接口3")
-    List<Pojo2> test3(@Body List<ParamVO> paramVOs, @Param("param1") String param1);
+	@Post(value = "/test3", title = "测试接口3", description = "测试用的接口")
+	List<Pojo2> test3(@Body ParamVO paramVO, Date param3)
 }
 ```
 
@@ -100,7 +99,7 @@ public class GatewayTest extends TestBase {
 
     @Test
     public void test2() throws Exception {
-        System.out.println(demoApi.test2("test2", null, new Date()));
+        System.out.println(demoApi.test3(null, new Date()));
     }
 }
 ```

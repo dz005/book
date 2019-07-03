@@ -64,10 +64,8 @@ Snapshots of the development version are available in [Sonatype's `snapshots` re
 public class DemoGateway {
 
 	@CrossOrigin
-	@Mapping(value = "/test", title = "测试接口", description = "测试用的接口")
-	public Set<Map<String, Pojo>> test(@Param("param1") String param1,
-			@Param(value = "param2", defaultValue = "[{\"pojo\":{\"a\":\"as\"}},{\"pojo\":{\"a\":\"sad\"}}]") Set<Map<String, Pojo>> param2,
-			@Param(value = "param5", required = false) Date param3) {
+	@Get(value = "/test", title = "测试接口", description = "测试用的接口")
+	public Set<Map<String, Pojo>> test(@Param("param1") String param1,@Param(value = "param2") Set<Map<String, Pojo>> param2,@Param(value = "param5", required = false) Date param3) {
 		Pojo pojo = new Pojo();
 		pojo.setA(param1);
 		Pojo2 p2 = new Pojo2();
@@ -79,9 +77,7 @@ public class DemoGateway {
 
 	@Anonymous
 	@Get(value = "/test2", title = "测试接口2", description = "测试用的接口")
-	public Collection<Map<String, Pojo>> test(@Param("param1") String param1,
-			@Param(value = "param2", defaultValue = "[{\"pojo\":{\"a\":\"as\"}},{\"pojo\":{\"a\":\"sad\"}}]") Collection<Map<String, Pojo>> param2,
-			@Param(value = "param5", required = false) Date param3) {
+	public Collection<Map<String, Pojo>> test(@Param("param1") String param1,@Param(value = "param2") Collection<Map<String, Pojo>> param2, @Param(value = "param5", required = false) Date param3) {
 		Pojo pojo = new Pojo();
 		pojo.setA(param1);
 		Pojo2 p2 = new Pojo2();
