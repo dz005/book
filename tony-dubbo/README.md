@@ -6,8 +6,8 @@ dubbo微服务间是相互依赖的，而各项目是独立分散的，这对自
 
 ## 遇到的问题
 + 问题描述: 用jarlink做dubbo隔离的时候,发现返回结果反序列化偶尔会出现ClassNotFoundException
-+ 分析原因: dubbo的线程模型是异步的,请求消息和响应消息可能由不同的线程处理,通过ThreadLocal无法获取到同一个ClassLoader
-+ 解决方法：从Invoker的Interface上获取ClassLoader
++ 原因分析: dubbo的线程模型是异步的,请求消息和响应消息可能由不同的线程处理,通过ThreadLocal无法获取到同一个ClassLoader
++ 解决方案：优化返回结果的反序列化逻辑,从Invoker的Interface上获取ClassLoader
 
 
 感谢@Jerrick Zhu的merge
