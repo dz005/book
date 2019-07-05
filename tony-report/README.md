@@ -2,7 +2,7 @@
 
 [在线demo][demo]
 
-我很懒，不想编写数据导出代码，有没有像bootstrap-table-export.js这样的工具呢？只需要配置下，想导出啥就导出啥。可bootstrap-table-export是通过前端js将数据转换成报表文件的，数据多点就歇菜了。那不妨试试Tony Report，在Controller方法上添加注解@DataProvider，自动支持CSV，Excel，PDF等报表的导出，通过后端分页查询方式导出，还有记录数最大阀值设置，安全又可靠。
+我很懒，不想编写数据导出代码，有没有像bootstrap-table-export.js这样的工具呢？只需要配置下，想导出啥就导出啥。可bootstrap-table-export是通过前端js将数据转换成报表文件的，数据多点就歇菜了。没办法，只能自己写了。简单配置后，只需在Controller方法上添加注解@DataProvider，然后就自动支持CSV，Excel，PDF等报表的导出功能了，通过后端分页查询方式导出，还有记录数最大阀值设置，安全又可靠。
 
 ## Getting Started
 

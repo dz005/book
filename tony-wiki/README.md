@@ -1,6 +1,6 @@
 # Tony Wiki
 
-一个简单的HTTP接口文档平台，支持 SpringMVC, Spring Cloud 的restful http接口
+我很懒，不想在WIKI系统上编写和维护Http接口文档。swagger？我的懒超出你的想象，我连swagger注解都懒得学，懒得写。那就写个懒人专用HTTP接口文档平台吧。
 
 和swagger对比：
 
