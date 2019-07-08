@@ -11,5 +11,5 @@
 * [5.Tony-Report](tony-report/README.md)
 * [6.Tony-Log](tony-log/README.md)
 * [7.Tony-Wiki](tony-wiki/README.md)
-* [关于我](contact/README.md)
+* [联系我](contact/README.md)
 
